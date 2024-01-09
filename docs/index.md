@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: 前端备忘录
+titleTemplate: 让知识主动进入大脑
+
 hero:
   name: "前端备忘录"
   text: "一站式前端知识卡片"
