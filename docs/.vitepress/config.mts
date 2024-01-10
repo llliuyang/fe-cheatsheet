@@ -25,7 +25,17 @@ export default defineConfig({
       { icon: { svg: bili }, link: 'https://space.bilibili.com/30569760' },
       { icon: 'github', link: 'https://github.com/llliuyang' }
     ],
-    lastUpdatedText: '最后更新于：',
+    editLink: {
+      pattern: 'https://github.com/llliuyang/fe-cheatsheet/edit/main/docs/:path',
+      text: '在GitHub上编辑'
+    },
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'short'
+      }
+    },
     docFooter:{
       prev: '上一篇',
       next: '下一篇'
