@@ -9,7 +9,7 @@ export default defineConfig({
   title: "前端备忘录",
   base: '/fe-cheatsheet/', // 发布到github pages 时，会自带二级目录
   description: "卡片式查询知识点,vue,react,js,css",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.ico',
