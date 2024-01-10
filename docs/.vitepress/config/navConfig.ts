@@ -1,10 +1,18 @@
 const NavConfig = [
-  { text: '🔥CSS', link: '/css/' },
-  { text: 'JS', link: '' },
-  { text: 'Vue', link: '' },
-  { text: 'React', link: '' },
-  { text: '前端算法', link: '' },
-  { text: '设计模式', link: '' },
+  {
+    text: '🔥基础专题',
+    items: [
+      { text: 'CSS', link: '/css/' },
+      { text: 'Git', link: '/git/' },
+      { text: 'Vue', link: '/vue/' },
+      { text: 'React', link: '/react/' },
+      { text: 'NodeJs', link: '/node/' },
+      { text: 'JavaScript', link: '/js/' },
+      { text: 'TypeScript', link: '/ts/' },
+    ]
+  },
+  { text: '设计模式', link: '/design-pattern/' },
+  { text: '前端算法', link: '/algorithm/' },
   {
     text: '🔥面试题',
     items: [
@@ -36,7 +44,7 @@ const NavConfig = [
     ]
   },
   { text: '读书笔记', link: '' },
-  { text: '关于我', link: '' }
+  { text: '关于我', link: '/aboutme/' }
 ]
 
 export default NavConfig
